@@ -1,7 +1,7 @@
 {
     "name": "manzadey/view-admin-components",
     "description": "Laravel view components for admin panel from bootstrap css framework",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
