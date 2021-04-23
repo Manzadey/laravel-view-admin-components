@@ -22,7 +22,7 @@
                 @endif
             </caption>
         @endif
-        <thead>
+        <thead class="thead-light table-light">
         <tr>
             @foreach($headers as $header)
                 <th scope="col">{{ $header }}</th>
