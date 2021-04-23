@@ -1,0 +1,28 @@
+{
+    "name": "manzadey/view-admin-components",
+    "description": "Laravel view components for admin panel from bootstrap css framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Manzadey",
+            "email": "andrey.manzadey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Manzadey\\ViewAdminComponents\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Manzadey\\ViewAdminComponents\\ServiceProviders\\ViewAdminServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.3"
+    }
+}
