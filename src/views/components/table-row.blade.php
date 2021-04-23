@@ -4,7 +4,7 @@
 
 <tr {{ $attributes->merge(['class' => $activeClasses]) }}>
     @if($sn !== null)
-        <td>{{ $sn }}</td>
+        <td style="width:1%">{{ $sn }}</td>
     @endif
     {{ $slot }}
 </tr>
